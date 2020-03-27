@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: 'Didact Gothic'; 
 }
 
 .container {
@@ -12,5 +17,94 @@ body {
 }
 
 .container:nth-child(odd) {
-    background-color: #fffbf0;
+    background-color: gainsboro;
+}
+
+.text-selection-none{
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+    }
+
+.overview {
+    background-image: url("/images/still_dark_ocena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr
+}
+
+.title {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: block;
+}
+
+.title h1 {
+    padding: 0;
+    text-align: left;
+    margin: 0 0 0 50px;
+    
+}
+
+.name {
+    font-size: 6.5vw;
+}
+
+.position {
+    font-size: 3vw;
+}
+
+.portfolio {
+    text-align: left;
+    font-size: 1.5vw;
+    margin: 20px 40px;
+}
+
+.secondary-text {
+    color:rgb(175, 175, 175);
+}
+
+.arrow-down {
+    font-size: 2.5vw;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    align-self: end;
+    margin-bottom: 5%;
+}
+
+.arrow-down:hover {
+    font-size: 2.8vw;
+    color:gray;
+}
+
+.header-nav {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: right;
+}
+
+.header-items {
+    list-style-type: none;
+    margin: 20px 20px 0;
+}
+
+.header-items a {
+    color:white;
+    text-decoration: none;
+}
+
+.header-items li {
+    margin-right: 1.4vw;
+    font-size: 1.1vw;
+    display: inline;
+}
+
+.header-items a:hover {
+    color:gainsboro;
+    text-decoration: underline;
 }
