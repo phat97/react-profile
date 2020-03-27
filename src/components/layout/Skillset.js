@@ -2,6 +2,6 @@ import React from 'react';
 
 export const Skillset = () => {
     return (
-        <div className="container">skillset</div>
+        <div className="container" id="skills">skillset</div>
     )
 }
