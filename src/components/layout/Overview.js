@@ -12,6 +12,7 @@ export const Overview = () => {
                 <h1 className="position text-selection-none">WEB <span className="secondary-text">DEVELOPER</span></h1>
             </div>
             <span className="arrow-down"><Link to="about" smooth={true} duration={animations.SCROLL_SPEED}><FaChevronDown /></Link></span>
+            <div className="overlay"></div>
 
         </div >
     )

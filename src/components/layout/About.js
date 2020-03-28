@@ -1,17 +1,22 @@
 import React from 'react';
-import { FaBookReader } from 'react-icons/fa'
-import { GiBrain } from 'react-icons/gi'
 
 export const About = () => {
     return (
         <div className="container" id="about">
             <div className="left-col">
-                <p className="about-title">Curious and creative, I am constantly pushing to accomplish my goal — to be more knowledgeable.</p>
+                <p className="about-title">Curious and creative, I am constantly pushing myself to achieve my goals.</p>
                 <p className="about-subtitle">I satisfy my thirst for knowledge by exploring the complexity of web development and diving into the creative world of cooking.</p>
             </div>
             <div className="right-col">
-                <span className="book"><FaBookReader /></span>
-                <span className="brain"><GiBrain /></span>
+                <img className="me" src={process.env.PUBLIC_URL + "/images/me.jpg"} alt="me"></img>
+                <div className="contact-info">
+                    <h3>Contact Info</h3>
+                    <p><a href="https://github.com/phat97">Github</a></p>
+                    <p><a href="https://www.linkedin.com/in/phat-le/">linkedin</a></p>
+                    <p>phat.le@hotmail.com</p>
+                    <p>(778)-318-3441</p>
+                </div>
+
             </div>
 
         </div>
