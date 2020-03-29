@@ -157,6 +157,7 @@ body {
 #about {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0 5%;
 }
 
 #about .left-col {
@@ -189,14 +190,16 @@ body {
 
 #about .right-col {
     margin: auto 0; 
+    padding-top: 8%;
 }
 
 .me {
+  
     border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
+    width: 23vw;
+    height: 23vw;
     object-fit: cover;
-    border: 3px solid black;
+    
 }
 
 .contact-info {
@@ -204,7 +207,7 @@ body {
 }
 
 .contact-info h3 {
-    margin: 30px 0 10px;
+    margin: 25px 0 10px;
 }
 
 .contact-info h3:after {
@@ -227,11 +230,6 @@ body {
 .contact-info a:hover {
     color: rgb(138, 138, 138);
     text-decoration: underline;
-}
-
-.book, .brain{
-    font-size: 12vw;
-    padding: 30px;
 }
 /*End of about*/
 
