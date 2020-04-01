@@ -10,7 +10,7 @@ export const Projects = () => {
 
     return (
         <div className="container" id="projects">
-            <div className="project-container" data-aos="fade-up" data-aos-duration="1500" >
+            <div className="project-container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
                 <CarouselProvider
                     naturalSlideWidth={100}
                     naturalSlideHeight={45}

@@ -1,5 +1,5 @@
 export const animations = {
-    SCROLL_SPEED: 1500
+    SCROLL_SPEED: 1350
 }
 
 export const page = {

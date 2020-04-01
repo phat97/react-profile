@@ -286,7 +286,7 @@ body {
     color: white;
     padding: 10px 0 0;
     margin: 0;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     display:inline-block; 
 }
 
@@ -346,7 +346,7 @@ body {
 }
 
 .carousel__dot:hover {
-    background-color: rgb(252, 251, 216);
+    background-color: rgb(255, 253, 187);
 }
 
 .dots {
@@ -446,13 +446,78 @@ body {
 /*End of projects*/
 
 /******************************************
-*   Start of footer
+*   Start of skillset
 *******************************************/
-#footer {
-    height: 300px;
-    width: 100%;
-    color: white;
-    background-color: black;
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: left;
+    row-gap: 80px;
 }
 
-/*End of footer*/
+.skill-description {
+    margin: auto 0 auto 15% ;
+    grid-column: 1;
+    grid-row: span 2;
+}
+
+.skill-title {
+    font-size: 2.8vw;
+    margin: 0;
+}
+
+.skill-title:after {
+    content: "";
+    display: block;
+    width: 60%;
+    border-bottom: 2px solid rgb(141, 141, 141);
+}
+
+#skills p {
+    font-size: 1.2vw;
+    margin: 20px 0 0;
+}
+
+.web-skill-list {
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto 0 0;
+}
+
+.skillset-title {
+    font-size: 2vw;
+    margin: 0;
+    text-align: center;
+}
+
+.icon-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.skill-icon {
+    border-radius: 50%;
+    background-color: rgb(228, 228, 228);
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.skill-icon img {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    object-fit: contain;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) 
+}
+
+/*End of skillset*/

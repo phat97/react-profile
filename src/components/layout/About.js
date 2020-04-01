@@ -11,10 +11,10 @@ export const About = () => {
                 <img className="me" src={process.env.PUBLIC_URL + "/images/me.jpg"} alt="me" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="1200"></img>
                 <div className="contact-info">
                     <h3 data-aos="zoom-in">Contact Info</h3>
-                    <p data-aos="fade-up" data-aos-delay="250"><a href="https://github.com/phat97">Github</a></p>
-                    <p data-aos="fade-up" data-aos-delay="450"><a href="https://www.linkedin.com/in/phat-le/">linkedin</a></p>
-                    <p data-aos="fade-up" data-aos-delay="650">phat.le@hotmail.com</p>
-                    <p data-aos="fade-up" data-aos-delay="850">(778)-318-3441</p>
+                    <p data-aos="fade-up" data-aos-delay="200"><a href="https://github.com/phat97">Github</a></p>
+                    <p data-aos="fade-up" data-aos-delay="350"><a href="https://www.linkedin.com/in/phat-le/">linkedin</a></p>
+                    <p data-aos="fade-up" data-aos-delay="500">phat.le@hotmail.com</p>
+                    <p data-aos="fade-up" data-aos-delay="650">(778)-318-3441</p>
                 </div>
             </div>
         </div>
