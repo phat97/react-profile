@@ -5,8 +5,8 @@ export const Skillset = () => {
         <div className="container" id="skills">
             <div className="skill-description">
                 <h1 className="skill-title" data-aos="fade-right">Skills & Experience</h1>
-                <p data-aos="fade-up" data-aos-delay="200">Many of my web development skills is self-taught. I follow tutorials, read documentation and
-                build small and large projects to get a deeper understanding.
+                <p data-aos="fade-up" data-aos-delay="200">Many of my web development skills are self-taught. I followed tutorials, read documentation and
+                built small and large projects to get a deeper understanding.
                 </p>
                 <p data-aos="fade-up" data-aos-delay="350" >I've built full-stack applications with a team and individually as well.</p>
                 <p data-aos="fade-up" data-aos-delay="500">I am currently learning more modern languages/technologies such as React, C#, ASP.Net Core and trying
