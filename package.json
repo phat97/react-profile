@@ -18,7 +18,7 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
-    "server": "node server/app",
+    "server": "node app",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -8,7 +8,7 @@ const port = 8080;
 app.use(express.static('build'))
 
 router.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "../build", 'index.html'))
+    res.sendFile(path.join(__dirname, "build", 'index.html'))
 });
 
 app.use("/", router);
