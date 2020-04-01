@@ -235,11 +235,11 @@ body {
 
 .contact-info a {
     text-decoration: none;
-    color: black;
+    color: rgb(14, 51, 153);
 }
 
 .contact-info a:hover {
-    color: rgb(138, 138, 138);
+    color: rgb(29, 49, 235);
     text-decoration: underline;
 }
 /*End of about*/
@@ -342,11 +342,11 @@ body {
     border: none;
     outline: none;
     margin-left: 15px;
-    background: rgb(167, 167, 167);
+    background: rgb(143, 143, 143);
 }
 
 .carousel__dot:hover {
-    background-color: rgb(118, 75, 219);
+    background-color: rgb(252, 251, 216);
 }
 
 .dots {
@@ -357,7 +357,7 @@ body {
     left: 50%;
 }
 .carousel__dot--selected {
-    background-color: rgb(159, 160, 250);
+    background-color: rgb(255, 255, 255);
     -webkit-transition: background-color  0.8s ease-out;
     -moz-transition: background-color  0.8s ease-out;
     -o-transition: background-color  0.8s ease-out;
@@ -367,7 +367,7 @@ body {
 .carousel-grid {
     display: grid;
     grid-template-columns: 4.2vw 1fr 1fr 4.2vw;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
     height: 80%;
     align-items: left;
     margin-top: 25px;
@@ -417,17 +417,23 @@ body {
 
 .project-example {
     grid-column: 3;
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    display: inline;
+    position: relative;
 }
 
 .project-example img {
-    max-width: auto;
+    max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    position: absolute;
+    top:45%;
+    transform: translateY(-50%);
 }
 
 .carousel-grid .site-url {
-    margin-top: 30px;
+    margin-top: 20px;
     color:rgb(190, 216, 255);
     display: inline-block;
 }

@@ -10,7 +10,6 @@ export const Projects = () => {
 
     return (
         <div className="container" id="projects">
-            {/* <h1 className="project-highlight" data-aos="fade-in" data-aos-duration="1000">Projects Highlight</h1> */}
             <div className="project-container" data-aos="fade-up" data-aos-duration="1500" >
                 <CarouselProvider
                     naturalSlideWidth={100}
@@ -30,7 +29,7 @@ export const Projects = () => {
                                         temperature and weather condition of the location. </p>
                                         <p>The application is built using C#, ASP.net Core 3.1 and RazorPages.
                                         I used GooglePlaceAPI for the auto-complete search and OpenWeatherAPI to get the weather condition.</p>
-                                        <a href="https://pl-weather-app.herokuapp.com/"><p className="site-url">Visit The Site <FiExternalLink /></p></a>
+                                        <a href="https://pl-weather-app.herokuapp.com/" target="blank"><p className="site-url">Visit The Site <FiExternalLink /></p></a>
                                     </div>
                                     <div className="project-tech">
                                         <p className="project-header">Technologies Used:</p>
@@ -56,14 +55,48 @@ export const Projects = () => {
                                     <div className="project-example">
                                         <img src={process.env.PUBLIC_URL + "/images/WeatherProject.jpg"} alt="Weather App"></img>
                                     </div>
-
                                 </div>
                             </div>
                         </Slide>
                         <Slide index={1}>
                             <div className="carosuel-item">
-                                <h1 className="slide-title">Tsunami Solution Billing Form - <span className="secondary-text">Professional</span>
+                                <h1 className="slide-title">SafetyLine Billing Form - <span className="secondary-text">Professional</span>
                                 </h1>
+                                <div className="carousel-grid">
+                                    <div className="project-detail">
+                                        <p className="project-header">Description:</p>
+                                        <p>SafetyLine billing form is a project selected as part of the BCIT curriculum called a practicum. It is
+                                        essentially an unpaid internship to gain work experience.
+                                        </p>
+                                        <p>My team and I converted an outdate .NET desktop application into a
+                                            responsible web application with modern UX/UI.</p>
+                                        <p>I was the project manager of the team. I did most of the communication with the client and organized weekly
+                                            sprints for my team. I also worked on the backend with another member.</p>
+                                    </div>
+                                    <div className="project-tech">
+                                        <p className="project-header">Technologies Used:</p>
+                                        <table className="tech-table">
+                                            <tr>
+                                                <td>&#8226; C#</td>
+                                                <td>&#8226; ASP.Net Core 3.0</td>
+                                                <td>&#8226; RazorPages</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&#8226; JavaScript</td>
+                                                <td>&#8226; EntityFramework</td>
+                                                <td>&#8226; MVC</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&#8226; HTML/CSS</td>
+                                                <td>&#8226; Microsoft Azure</td>
+                                                <td>&#8226; MySQL</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div className="project-example">
+                                        <img src={process.env.PUBLIC_URL + "/images/TsunamiSolution.jpg"} alt="Tsunami Solutions"></img>
+                                    </div>
+                                </div>
                             </div>
                         </Slide>
                         <Slide index={2}>
