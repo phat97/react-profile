@@ -8,20 +8,18 @@ export const Timewatch = (props) => {
     <Slide index={props.index}>
       <div className="carosuel-item">
         <h1 className="slide-title">
-          Today's Forecast - <span className="secondary-text">Personal</span>
+          Time Watch - <span className="secondary-text">Personal</span>
         </h1>
         <div className="carousel-grid">
           <div className="project-detail">
             <p className="project-header">Description:</p>
             <p>
-              Today's Forecast is a web application that takes in the user input of a city and return the
-              current temperature and weather condition of the location.{" "}
+              I built timewatch as a personal project to improve my understanding of React hook and state
+              management. The functionalities are quite basic but the main focus of this project was to
+              improve my code structure and design.
             </p>
-            <p>
-              The application is built using C#, ASP.net Core 3.1 and RazorPages. I used GooglePlaceAPI
-              for the auto-complete search and OpenWeatherAPI to get the weather condition.
-            </p>
-            <a href="https://pl-weather-app.herokuapp.com/" target="blank">
+            <p>The application is built using React.js and the states are stored in LocalData.</p>
+            <a href="http://pl-timewatch.herokuapp.com/" target="blank">
               <p className="site-url">
                 Visit The Site <FiExternalLink />
               </p>
@@ -32,26 +30,16 @@ export const Timewatch = (props) => {
             <table className="tech-table">
               <tbody>
                 <tr>
-                  <td>&#8226; C#</td>
-                  <td>&#8226; ASP.Net Core 3.1</td>
-                  <td>&#8226; RazorPages</td>
-                  <td>&#8226; MVC</td>
-                </tr>
-                <tr>
+                  <td>&#8226; React</td>
                   <td>&#8226; JavaScript</td>
-                  <td>&#8226; GooglePlaceAPI</td>
-                  <td>&#8226; Heroku</td>
-                </tr>
-                <tr>
                   <td>&#8226; HTML/CSS</td>
-                  <td>&#8226; OpenWeatherAPI</td>
-                  <td>&#8226; Docker</td>
+                  <td>&#8226; Heroku</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div className="project-example">
-            <img src={process.env.PUBLIC_URL + "/images/WeatherProject.jpg"} alt="Weather App"></img>
+            <img src={process.env.PUBLIC_URL + "/images/timewatch.PNG"} alt="Time watch"></img>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ export const WeatherApp = (props) => {
             <p className="project-header">Description:</p>
             <p>
               Today's Forecast is a web application that takes in the user input of a city and return the
-              current temperature and weather condition of the location.{" "}
+              current temperature and weather condition of the location.
             </p>
             <p>
               The application is built using C#, ASP.net Core 3.1 and RazorPages. I used GooglePlaceAPI

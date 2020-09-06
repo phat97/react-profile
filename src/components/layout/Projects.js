@@ -2,7 +2,7 @@ import React from "react";
 import { CarouselProvider, Slider, ButtonBack, ButtonNext, DotGroup } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import { WeatherApp, SafetyLine, TalktoVern } from "./slides/ExportSlides";
+import { WeatherApp, SafetyLine, TalktoVern, Timewatch } from "./slides/ExportSlides";
 
 export const Projects = () => {
   return (
@@ -16,7 +16,7 @@ export const Projects = () => {
         <CarouselProvider
           naturalSlideWidth={100}
           naturalSlideHeight={45}
-          totalSlides={3}
+          totalSlides={4}
           infinite={true}
           dragEnabled={false}
         >
@@ -24,6 +24,7 @@ export const Projects = () => {
             <WeatherApp index={0} />
             <SafetyLine index={1} />
             <TalktoVern index={2} />
+            <Timewatch index={3} />
           </Slider>
           <ButtonBack className="backward-btn">
             <FaChevronLeft className="slider-btn" />
