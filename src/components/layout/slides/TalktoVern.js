@@ -31,19 +31,19 @@ export const TalktoVern = (props) => {
             <table className="tech-table">
               <tbody>
                 <tr>
-                  <td>&#8226; C#</td>
-                  <td>&#8226; ASP.Net Core 3.0</td>
-                  <td>&#8226; RazorPages</td>
+                  <td>&#8226; React</td>
+                  <td>&#8226; Webpack/Babel</td>
+                  <td>&#8226; HTML/CSS/JS</td>
                 </tr>
                 <tr>
-                  <td>&#8226; JavaScript</td>
-                  <td>&#8226; EntityFramework</td>
+                  <td>&#8226; ffmpeg</td>
+                  <td>&#8226; Node</td>
+                  <td>&#8226; Express</td>
+                </tr>
+                <tr>
+                  <td>&#8226; AWS EC2</td>
+                  <td>&#8226; Bootstrap</td>
                   <td>&#8226; MVC</td>
-                </tr>
-                <tr>
-                  <td>&#8226; HTML/CSS</td>
-                  <td>&#8226; Microsoft Azure</td>
-                  <td>&#8226; MySQL</td>
                 </tr>
               </tbody>
             </table>

@@ -21,7 +21,7 @@ export const App = () => {
       <About />
       <Projects />
       <Skillset />
-      <Hobbies />
+      {/* <Hobbies /> */}
     </div>
   );
 };

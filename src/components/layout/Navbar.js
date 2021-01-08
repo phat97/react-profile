@@ -64,11 +64,11 @@ export const Navbar = () => {
               Skills
             </Link>
           </li>
-          <li className={highlight === page.HOBBIES ? "highlight" : null}>
+          {/* <li className={highlight === page.HOBBIES ? "highlight" : null}>
             <Link to="hobbies" smooth={true} duration={animations.SCROLL_SPEED}>
               Hobbies
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
